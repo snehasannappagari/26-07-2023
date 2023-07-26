@@ -1,0 +1,51 @@
+<style>
+    /* button is called css selector */
+    .subsribe-button {
+        /*background color is called css property right is called css value  */
+        /* rgb means red green blue */
+        background-color: rgb(200, 0, 0);
+        /* color is used to change the text color */
+        color: white;
+        border: none;
+        /* px means pixels */
+        height: 36px;
+        width: 105px;
+        border-radius: 2px;
+        cursor:pointer;
+        margin-right: 8px;
+    }
+    /* in css space is called margin */
+    .join-button{
+        background-color: white;
+        border-color: rgb(41, 118, 211);
+        border-style: solid;
+        border-width: 1px;
+        color: rgb(41, 118, 211);
+        height: 36px;
+        width: 62px;
+        border-radius: 2px;
+        cursor: pointer;
+        margin-right: 8px;
+    }
+    .tweet-button{
+        background-color: rgb(2, 158, 255);
+        color:white;
+        border: none;
+        height: 36px;
+        width: 74px;
+        border-radius: 18px;
+        font-weight: bold;
+        font-size: 15px;
+        cursor: pointer;
+    }
+</style>
+
+<button class="subsribe-button">
+    SUBSCRIBE
+</button>
+<button class="join-button">
+    JOIN
+</button>
+<button class="tweet-button">
+    Tweet
+</button>
